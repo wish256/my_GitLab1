@@ -5,20 +5,26 @@ agent any
     {
 	stage ("Build")
              {
+	     steps{
             echo "Building phase"
+	    }
 	     }
 
             stage ("Deploy")
              {
-            echo "Deploying phase"
+	     steps{
+            echo "Deploying phase"}
 	     }
 	    stage ("Test")
              {
-            echo "Testing phase"
+	     steps{
+            echo "Testing phase"}
 	     }
 stage ("Release")
+
              {
-            echo "Release phase"
+	     steps{
+            echo "Release phase"}
 	     }
 }
 
