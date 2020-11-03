@@ -1,0 +1,29 @@
+pipeline
+{
+agent any
+	stages
+    {
+	stage
+             {
+            echo "Building phase"
+	     }
+
+            stage
+             {
+            echo "Deploying phase"
+	     }
+	    stage
+             {
+            echo "Testing phase"
+	     }
+stage
+             {
+            echo "Release phase"
+	     }
+
+
+
+
+    }
+
+}
