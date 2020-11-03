@@ -20,10 +20,6 @@ stage
              {
             echo "Release phase"
 	     }
-
-
-
-
-    }
+}
 
 }
