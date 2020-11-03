@@ -3,20 +3,20 @@ pipeline
 agent any
 	stages
     {
-	stage
+	stage ("Build")
              {
             echo "Building phase"
 	     }
 
-            stage
+            stage ("Deploy")
              {
             echo "Deploying phase"
 	     }
-	    stage
+	    stage ("Test")
              {
             echo "Testing phase"
 	     }
-stage
+stage ("Release")
              {
             echo "Release phase"
 	     }
